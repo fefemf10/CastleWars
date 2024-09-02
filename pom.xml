@@ -41,6 +41,14 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.2</version>
+                <configuration>
+                    <outputDirectory>C:\Users\Rubiks\Desktop\Server\plugins</outputDirectory>
+                </configuration>
+            </plugin>
         </plugins>
         <resources>
             <resource>
@@ -67,6 +75,13 @@
             <artifactId>paper-api</artifactId>
             <version>1.21-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>pk.ajneb97</groupId>
+            <artifactId>PlayerKits2</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>C:\Users\Rubiks\Desktop\Server\plugins\PlayerKits2.jar</systemPath>
         </dependency>
     </dependencies>
 </project>
