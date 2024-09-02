@@ -1,0 +1,14 @@
+name: CastleWars
+version: '1.0-SNAPSHOT'
+main: com.fefemf10.castleWars.CastleWars
+api-version: '1.21'
+dependencies:
+  server:
+    PlayerKits2:
+      load: AFTER
+      required: true
+      join-classpath: false
+commands:
+  cw:
+    description: "CastleWars"
+    usage: "/cw [create|delete|setkit|spawnpoint|flagpoint|start|stop|connect|leaver]"
